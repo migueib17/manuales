@@ -1,0 +1,4 @@
+jQuery es una biblioteca multiplataforma de JavaScript, que permite simplificar la manera de interactuar con los documentos HTML, manipular el arbol DOM, manejar eventos, desarrollar animaciones y agregar interaccion con la tecnica AJAX a paginas web.
+Es software libre y de codigo abierto, permitiendo su uso en proyectos libres y privados. jQuery, al igual que otras bibliotecas, ofrece una serie de funcionalidades basadas en JavaScript logrando grandes resultados en menos tiempo y espacio.
+
+En este proyecto nos hemos servido de JQuery para poder introducir fechas de una forma intuitiva mediante un pequeno calendario.

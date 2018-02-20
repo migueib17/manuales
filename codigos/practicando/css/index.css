@@ -1,0 +1,914 @@
+
+/*RESPONSIVE PARA
+1-MOVILES PORTRAIT
+2-TABLETAS
+3-DESKTOP
+*/
+
+
+
+/* 
+VISTA POR DEFECTO SIN RESPONSIVE:;
+*/
+
+
+header{
+
+   background-color: lightSteelBlue;
+}
+
+
+article{
+    display: flex;
+    width: 100%;
+}
+img.logo{
+    background-color: lightSteelBlue;
+}
+
+input.login{
+
+      float: right;
+    margin-right: 40px;
+      margin-top: 100px;
+    border-image: transparent;
+    border-radius: 15px 15px 15px 15px;
+
+}
+div.superCabecera{
+
+    display:flex;
+    justify-content: space-between;
+
+}
+div.cabeceraLogo{
+    flex-basis: 20%
+
+
+}
+div .cabeceraLogo img{
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 6%;
+}
+div.contendorCabecera  {
+    display: flex;
+    flex-direction: column;
+    flex-basis:80%;
+}
+
+div.login{
+    margin-top: 10%
+}
+a#forgot{
+    color: green;
+}
+
+div.menuLateral{
+    width: 20%;
+    background-color: teal;
+
+
+}
+div.menuLateral ul{
+    list-style-type: none;
+    margin-top: 60px;
+
+
+}
+div.menuLateral ul li{
+    margin-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+div.menuLateral li a{
+    color: black;
+    text-decoration: none;
+
+
+}
+
+div.contenido{
+    width: 75%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    float: right;
+}
+div.contenido img{
+    width: 35%
+    margin-bottom: 1%;
+}
+div.contenido nav ul{
+    list-style-type: none;
+}
+div.contenido  nav li a{
+    color: azure;
+    text-decoration: none;
+
+}
+
+footer {
+    background-color: lightSteelBlue;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: inline;
+
+
+}
+
+#copy {
+        display: inline;
+        font-size: 20px;
+        position: absolute;
+        right: 30px;
+        bottom: 20px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+#info {
+        display: inline;
+        font-size: 20px;
+        position: absolute;
+        right: 160px;
+        bottom: 20px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+#autorias {
+        display: inline;
+        font-size: 20px;
+        position: absolute;
+        right: 350px;
+        bottom: 20px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+
+#ugr {
+        display: inline;
+        font-size: 40px;
+        position: absolute;
+        left: 180px;
+        bottom: 0px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+#tec {
+        display: inline;
+        font-size: 15px;
+        position: absolute;
+        left: 250px;
+        bottom: 5px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+#copia {
+        display: inline;
+        font-size: 15px;
+        position: absolute;
+        left: 730px;
+        bottom: 30px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+#restaurar {
+        display: inline;
+        font-size: 15px;
+        position: absolute;
+        left: 600px;
+        bottom: 30px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+#log {
+        display: inline;
+        font-size: 15px;
+        position: absolute;
+        left: 500px;
+        bottom: 30px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+footer nav{
+    display: inline-block;
+}
+footer nav ul{
+    list-style-type: none;
+    display: -webkit-inline-box;
+     height: 60px;
+    width: 1300px;
+}
+footer nav ul li a{
+    text-decoration: none;
+
+
+
+}
+
+table {
+    width: 100%; 
+    background-color: #9BB9D6;
+    border: 1px solid black;
+}
+
+
+/* FIN POR DEFECTO */
+
+
+
+
+
+
+
+
+ /* Móviles (portrait) */
+@media screen and (max-device-width: 480px) and (orientation: portrait) { 
+
+
+header{
+
+   background-color: lightSteelBlue;
+}
+
+
+article{
+	display: flex;
+	width: 100%;
+}
+img.logo{
+	background-color: lightSteelBlue;
+}
+
+input.login{
+
+	  float: right;
+    margin-right: 40px;
+	  margin-top: 100px;
+    border-image: transparent;
+    border-radius: 15px 15px 15px 15px;
+
+}
+div.superCabecera{
+
+	display:flex;
+	justify-content: space-between;
+
+}
+div.cabeceraLogo{
+	flex-basis: 20%
+
+
+}
+div .cabeceraLogo img{
+	width: 75%;
+	margin-left: 12%;
+	margin-top: 6%;
+}
+div.contendorCabecera  {
+	display: flex;
+	flex-direction: column;
+	flex-basis:80%;
+}
+
+div.login{
+	margin-top: 10%
+}
+a#forgot{
+	color: green;
+}
+
+div.menuLateral{
+	width: 20%;
+	background-color: teal;
+
+
+}
+div.menuLateral ul{
+	list-style-type: none;
+	margin-top: 60px;
+
+
+}
+div.menuLateral ul li{
+	margin-bottom: 20px;
+	padding-top: 20px;
+
+}
+
+div.menuLateral li a{
+	color: black;
+	text-decoration: none;
+
+
+}
+
+div.contenido{
+	width: 75%;
+	background-color: white;
+	color: black;
+	text-align: center;
+	float: right;
+}
+div.contenido img{
+	width: 35%
+	margin-bottom: 1%;
+}
+div.contenido nav ul{
+	list-style-type: none;
+}
+div.contenido  nav li a{
+	color: azure;
+	text-decoration: none;
+
+}
+
+footer {
+    background-color: lightSteelBlue;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: inline;
+
+
+}
+
+#copy {
+        display: inline;
+        font-size: 20px;
+        position: absolute;
+        right: 30px;
+        bottom: 20px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+#info {
+        display: inline;
+        font-size: 20px;
+        position: absolute;
+        right: 160px;
+        bottom: 20px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+#autorias {
+        display: inline;
+        font-size: 20px;
+        position: absolute;
+        right: 350px;
+        bottom: 20px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+
+#ugr {
+        display: inline;
+        font-size: 40px;
+        position: absolute;
+        left: 180px;
+		bottom: 0px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+		color: white;
+}
+
+#tec {
+        display: inline;
+        font-size: 15px;
+        position: absolute;
+        left: 250px;
+		bottom: 5px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+		color: white;
+}
+
+#copia {
+        display: inline;
+        font-size: 15px;
+        position: absolute;
+        left: 730px;
+        bottom: 30px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+#restaurar {
+        display: inline;
+        font-size: 15px;
+        position: absolute;
+        left: 600px;
+        bottom: 30px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+#log {
+        display: inline;
+        font-size: 15px;
+        position: absolute;
+        left: 500px;
+        bottom: 30px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+footer nav{
+	display: inline-block;
+}
+footer nav ul{
+	list-style-type: none;
+	display: -webkit-inline-box;
+	 height: 60px;
+    width: 1300px;
+}
+footer nav ul li a{
+	text-decoration: none;
+
+
+
+}
+
+table {
+    width: 100%; 
+    background-color: #9BB9D6;
+    border: 1px solid black;
+}
+
+
+} /* FIN Móviles (portrait) */
+
+
+
+
+/* Tabletas */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+
+
+header{
+
+   background-color: lightSteelBlue;
+}
+
+
+article{
+    display: flex;
+    width: 100%;
+}
+img.logo{
+    background-color: lightSteelBlue;
+}
+
+input.login{
+
+      float: right;
+    margin-right: 40px;
+      margin-top: 100px;
+    border-image: transparent;
+    border-radius: 15px 15px 15px 15px;
+
+}
+div.superCabecera{
+
+    display:flex;
+    justify-content: space-between;
+
+}
+div.cabeceraLogo{
+    flex-basis: 20%
+
+
+}
+div .cabeceraLogo img{
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 6%;
+}
+div.contendorCabecera  {
+    display: flex;
+    flex-direction: column;
+    flex-basis:80%;
+}
+
+div.login{
+    margin-top: 10%
+}
+a#forgot{
+    color: green;
+}
+
+div.menuLateral{
+    width: 20%;
+    background-color: teal;
+
+
+}
+div.menuLateral ul{
+    list-style-type: none;
+    margin-top: 60px;
+
+
+}
+div.menuLateral ul li{
+    margin-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+div.menuLateral li a{
+    color: black;
+    text-decoration: none;
+
+
+}
+
+div.contenido{
+    width: 75%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    float: right;
+}
+div.contenido img{
+    width: 35%
+    margin-bottom: 1%;
+}
+div.contenido nav ul{
+    list-style-type: none;
+}
+div.contenido  nav li a{
+    color: azure;
+    text-decoration: none;
+
+}
+
+footer {
+    background-color: lightSteelBlue;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: inline;
+
+
+}
+
+#copy {
+        display: inline;
+        font-size: 20px;
+        position: absolute;
+        right: 30px;
+        bottom: 20px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+#info {
+        display: inline;
+        font-size: 20px;
+        position: absolute;
+        right: 160px;
+        bottom: 20px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+#autorias {
+        display: inline;
+        font-size: 20px;
+        position: absolute;
+        right: 350px;
+        bottom: 20px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+
+#ugr {
+        display: inline;
+        font-size: 40px;
+        position: absolute;
+        left: 180px;
+        bottom: 0px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+#tec {
+        display: inline;
+        font-size: 15px;
+        position: absolute;
+        left: 250px;
+        bottom: 5px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+#copia {
+        display: inline;
+        font-size: 15px;
+        position: absolute;
+        left: 730px;
+        bottom: 30px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+#restaurar {
+        display: inline;
+        font-size: 15px;
+        position: absolute;
+        left: 600px;
+        bottom: 30px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+#log {
+        display: inline;
+        font-size: 15px;
+        position: absolute;
+        left: 500px;
+        bottom: 30px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+footer nav{
+    display: inline-block;
+}
+footer nav ul{
+    list-style-type: none;
+    display: -webkit-inline-box;
+     height: 60px;
+    width: 1300px;
+}
+footer nav ul li a{
+    text-decoration: none;
+
+
+
+}
+
+table {
+    width: 100%; 
+    background-color: #9BB9D6;
+    border: 1px solid black;
+}
+
+
+} /* FIN Tabletas */
+
+
+
+
+/* Desktop */
+@media screen and (min-width:1024px) { 
+
+
+header{
+
+   background-color: lightSteelBlue;
+}
+
+
+article{
+    display: flex;
+    width: 100%;
+}
+img.logo{
+    background-color: lightSteelBlue;
+}
+
+input.login{
+
+      float: right;
+    margin-right: 40px;
+      margin-top: 100px;
+    border-image: transparent;
+    border-radius: 15px 15px 15px 15px;
+
+}
+div.superCabecera{
+
+    display:flex;
+    justify-content: space-between;
+
+}
+div.cabeceraLogo{
+    flex-basis: 20%
+
+
+}
+div .cabeceraLogo img{
+    width: 75%;
+    margin-left: 12%;
+    margin-top: 6%;
+}
+div.contendorCabecera  {
+    display: flex;
+    flex-direction: column;
+    flex-basis:80%;
+}
+
+div.login{
+    margin-top: 10%
+}
+a#forgot{
+    color: green;
+}
+
+div.menuLateral{
+    width: 20%;
+    background-color: teal;
+
+
+}
+div.menuLateral ul{
+    list-style-type: none;
+    margin-top: 60px;
+
+
+}
+div.menuLateral ul li{
+    margin-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+div.menuLateral li a{
+    color: black;
+    text-decoration: none;
+
+
+}
+
+div.contenido{
+    width: 75%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    float: right;
+}
+div.contenido img{
+    width: 35%
+    margin-bottom: 1%;
+}
+div.contenido nav ul{
+    list-style-type: none;
+}
+div.contenido  nav li a{
+    color: azure;
+    text-decoration: none;
+
+}
+
+footer {
+    background-color: lightSteelBlue;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    display: inline;
+
+
+}
+
+#copy {
+        display: inline;
+        font-size: 20px;
+        position: absolute;
+        right: 30px;
+        bottom: 20px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+#info {
+        display: inline;
+        font-size: 20px;
+        position: absolute;
+        right: 160px;
+        bottom: 20px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+#autorias {
+        display: inline;
+        font-size: 20px;
+        position: absolute;
+        right: 350px;
+        bottom: 20px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+
+#ugr {
+        display: inline;
+        font-size: 40px;
+        position: absolute;
+        left: 180px;
+        bottom: 0px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+#tec {
+        display: inline;
+        font-size: 15px;
+        position: absolute;
+        left: 250px;
+        bottom: 5px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+#copia {
+        display: inline;
+        font-size: 15px;
+        position: absolute;
+        left: 730px;
+        bottom: 30px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+#restaurar {
+        display: inline;
+        font-size: 15px;
+        position: absolute;
+        left: 600px;
+        bottom: 30px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+#log {
+        display: inline;
+        font-size: 15px;
+        position: absolute;
+        left: 500px;
+        bottom: 30px;
+        font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: white;
+}
+
+footer nav{
+    display: inline-block;
+}
+footer nav ul{
+    list-style-type: none;
+    display: -webkit-inline-box;
+     height: 60px;
+    width: 1300px;
+}
+footer nav ul li a{
+    text-decoration: none;
+
+
+
+}
+
+table {
+    width: 100%; 
+    background-color: #9BB9D6;
+    border: 1px solid black;
+}
+
+
+} /* FIN DESKTOP */

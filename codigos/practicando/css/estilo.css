@@ -1,0 +1,850 @@
+
+/*RESPONSIVE PARA
+1-MOVILES PORTRAIT
+2-TABLETAS
+3-DESKTOP
+*/
+
+
+
+/* 
+VISTA POR DEFECTO SIN RESPONSIVE:;
+*/
+
+body {
+    margin: 0px;
+    width: 100%;
+}
+
+.container-cabecera {
+    position: relative;
+    background-color: white;
+    height: 110px;
+    border-bottom-color: #003366;
+    border-bottom-style: solid;
+}
+#miguel{
+
+    
+    width: 80px;
+    height: 100px;
+
+
+}
+h3{
+    font-style: italic;
+    font-size: 16px;
+}
+h4{
+    color: #315170;
+    font-size: 13px;
+}
+#yurena{
+
+    
+    width: 80px;
+    height: 100px;
+
+
+}
+#emiliosantiago {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 100px;
+    height: 100px;
+}
+#departamento {
+    position: absolute;
+    top: 5px;
+    left: 430px;
+    width: 300px;
+    height: 90px;
+}
+#logo {
+    position: absolute;
+    right: 0px;
+    top: -20px;
+    width: 270px;
+    height: 130px;
+}
+#logoazul {
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    width: 550px;
+    height: 410px;
+}
+.login {
+    position:absolute;
+    left:770px;
+    top: 90px;
+    background-color: #003366;
+    text-decoration: none;
+    color: white;
+}
+.login:hover {
+    color:black;
+    background-color: white;
+}
+
+.container-cuerpo {
+    position: relative;
+    width: 100%; 
+}
+
+.container-menu {
+    position: fixed;
+    width: 226px;
+    height: auto;
+    border-color: #667292;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #e6eeff;
+    z-index: 1;
+}
+.menu_lateral {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 14px;  
+}
+.menu_lateral ul {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.menu_lateral a {
+    display: block;
+    padding: 10px;
+    border-color: #667292;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    color: #003366;
+}
+.menu_lateral a:hover {
+    background-color: #87bdd8;
+}
+.menu_lateral_selected {
+    background-color: #87bdd8;
+}
+.logout{
+    width: 226px;
+    height: 39px;
+    margin: 0px;
+    position: relative;
+    border-color: #667292;
+    border-style: solid;
+    border-width: 1px;
+}
+.logout input {
+    position: absolute;
+    top: 3px;
+    left:50px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container-display {
+    position: absolute;
+    width: auto;
+    height: auto;
+    display: inline;
+    padding-left: 230px;
+    z-index: 0;
+    font-family: Arial;
+    margin-left: 10px;
+}
+.menu_login {
+    margin: 50px;
+    padding: 20px;
+    border: 3px solid #003366;
+}
+
+ .menu_login2 {
+    position: absolute;
+    width: auto;
+    top: -3px;
+    right:80px;
+            font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: #234C7E;
+        font-weight: 700;
+    
+    /*border: 3px solid #003366;*/
+}
+
+.container-display table{
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+.container-display input {
+    padding: 5px;
+}
+.container-display table th {
+    border: 1px solid #003366;
+    padding: 10px;
+}
+.container-display table tr td {
+    border: 1px solid #003366;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container-display table p {
+    margin: 5px;
+}
+.container-display table tr:nth-child(even) {
+    background-color: #ebf0fa;
+}
+
+#chica {
+    font-size: 10px;
+    font-style: italic;
+
+}
+
+
+
+
+
+ /* Móviles (portrait) */
+@media screen and (max-device-width: 480px) and (orientation: portrait) { 
+
+body {
+    margin: 0px;
+    width: 100%;
+}
+
+.container-cabecera {
+    position: relative;
+    background-color: white;
+    height: 110px;
+    border-bottom-color: #003366;
+    border-bottom-style: solid;
+}
+#miguel{
+
+    
+    width: 80px;
+    height: 100px;
+
+
+}
+h3{
+    font-style: italic;
+    font-size: 16px;
+}
+h4{
+    color: #315170;
+    font-size: 13px;
+}
+#yurena{
+
+    
+    width: 80px;
+    height: 100px;
+
+
+}
+#emiliosantiago {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 100px;
+    height: 100px;
+}
+#departamento {
+    position: absolute;
+    top: 5px;
+    left: 430px;
+    width: 300px;
+    height: 90px;
+}
+#logo {
+    position: absolute;
+    right: 0px;
+    top: -20px;
+    width: 270px;
+    height: 130px;
+}
+#logoazul {
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    width: 550px;
+    height: 410px;
+}
+.login {
+    position:absolute;
+    left:770px;
+    top: 90px;
+    background-color: #003366;
+    text-decoration: none;
+    color: white;
+}
+.login:hover {
+    color:black;
+    background-color: white;
+}
+
+.container-cuerpo {
+    position: relative;
+    width: 100%; 
+}
+
+.container-menu {
+    position: fixed;
+    width: 226px;
+    height: auto;
+    border-color: #667292;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #e6eeff;
+    z-index: 1;
+}
+.menu_lateral {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 14px;  
+}
+.menu_lateral ul {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.menu_lateral a {
+    display: block;
+    padding: 10px;
+    border-color: #667292;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    color: #003366;
+}
+.menu_lateral a:hover {
+    background-color: #87bdd8;
+}
+.menu_lateral_selected {
+    background-color: #87bdd8;
+}
+.logout{
+    width: 226px;
+    height: 39px;
+    margin: 0px;
+    position: relative;
+    border-color: #667292;
+    border-style: solid;
+    border-width: 1px;
+}
+.logout input {
+    position: absolute;
+    top: 3px;
+    left:50px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container-display {
+    position: absolute;
+    width: auto;
+    height: auto;
+    display: inline;
+    padding-left: 230px;
+    z-index: 0;
+    font-family: Arial;
+    margin-left: 10px;
+}
+.menu_login {
+    margin: 50px;
+    padding: 20px;
+    border: 3px solid #003366;
+}
+
+ .menu_login2 {
+    position: absolute;
+    width: auto;
+    top: -3px;
+    right:80px;
+            font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: #234C7E;
+        font-weight: 700;
+    
+    /*border: 3px solid #003366;*/
+}
+
+.container-display table{
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+.container-display input {
+    padding: 5px;
+}
+.container-display table th {
+    border: 1px solid #003366;
+    padding: 10px;
+}
+.container-display table tr td {
+    border: 1px solid #003366;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container-display table p {
+    margin: 5px;
+}
+.container-display table tr:nth-child(even) {
+    background-color: #ebf0fa;
+}
+
+#chica {
+    font-size: 10px;
+    font-style: italic;
+
+
+}
+}/* FIN Móviles (portrait) */
+
+
+
+/* Tabletas */
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) { 
+
+body {
+    margin: 0px;
+    width: 100%;
+}
+
+.container-cabecera {
+    position: relative;
+    background-color: white;
+    height: 110px;
+    border-bottom-color: #003366;
+    border-bottom-style: solid;
+}
+#miguel{
+
+    
+    width: 80px;
+    height: 100px;
+
+
+}
+h3{
+    font-style: italic;
+    font-size: 16px;
+}
+h4{
+    color: #315170;
+    font-size: 13px;
+}
+#yurena{
+
+    
+    width: 80px;
+    height: 100px;
+
+
+}
+#emiliosantiago {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 100px;
+    height: 100px;
+}
+#departamento {
+    position: absolute;
+    top: 5px;
+    left: 430px;
+    width: 300px;
+    height: 90px;
+}
+#logo {
+    position: absolute;
+    right: 0px;
+    top: -20px;
+    width: 270px;
+    height: 130px;
+}
+#logoazul {
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    width: 550px;
+    height: 410px;
+}
+.login {
+    position:absolute;
+    left:770px;
+    top: 90px;
+    background-color: #003366;
+    text-decoration: none;
+    color: white;
+}
+.login:hover {
+    color:black;
+    background-color: white;
+}
+
+.container-cuerpo {
+    position: relative;
+    width: 100%; 
+}
+
+.container-menu {
+    position: fixed;
+    width: 226px;
+    height: auto;
+    border-color: #667292;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #e6eeff;
+    z-index: 1;
+}
+.menu_lateral {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 14px;  
+}
+.menu_lateral ul {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.menu_lateral a {
+    display: block;
+    padding: 10px;
+    border-color: #667292;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    color: #003366;
+}
+.menu_lateral a:hover {
+    background-color: #87bdd8;
+}
+.menu_lateral_selected {
+    background-color: #87bdd8;
+}
+.logout{
+    width: 226px;
+    height: 39px;
+    margin: 0px;
+    position: relative;
+    border-color: #667292;
+    border-style: solid;
+    border-width: 1px;
+}
+.logout input {
+    position: absolute;
+    top: 3px;
+    left:50px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container-display {
+    position: absolute;
+    width: auto;
+    height: auto;
+    display: inline;
+    padding-left: 230px;
+    z-index: 0;
+    font-family: Arial;
+    margin-left: 10px;
+}
+.menu_login {
+    margin: 50px;
+    padding: 20px;
+    border: 3px solid #003366;
+}
+
+ .menu_login2 {
+    position: absolute;
+    width: auto;
+    top: -3px;
+    right:80px;
+            font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: #234C7E;
+        font-weight: 700;
+    
+    /*border: 3px solid #003366;*/
+}
+
+.container-display table{
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+.container-display input {
+    padding: 5px;
+}
+.container-display table th {
+    border: 1px solid #003366;
+    padding: 10px;
+}
+.container-display table tr td {
+    border: 1px solid #003366;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container-display table p {
+    margin: 5px;
+}
+.container-display table tr:nth-child(even) {
+    background-color: #ebf0fa;
+}
+
+#chica {
+    font-size: 10px;
+    font-style: italic;
+
+
+}
+}/* FIN Tabletas */
+
+
+/* Desktop */
+@media screen and (min-width:1024px) { 
+
+body {
+    margin: 0px;
+    width: 100%;
+}
+
+.container-cabecera {
+    position: relative;
+    background-color: white;
+    height: 110px;
+    border-bottom-color: #003366;
+    border-bottom-style: solid;
+}
+#miguel{
+
+    
+    width: 80px;
+    height: 100px;
+
+
+}
+h3{
+    font-style: italic;
+    font-size: 16px;
+}
+h4{
+    color: #315170;
+    font-size: 13px;
+}
+#yurena{
+
+    
+    width: 80px;
+    height: 100px;
+
+
+}
+#emiliosantiago {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 100px;
+    height: 100px;
+}
+#departamento {
+    position: absolute;
+    top: 5px;
+    left: 430px;
+    width: 300px;
+    height: 90px;
+}
+#logo {
+    position: absolute;
+    right: 0px;
+    top: -20px;
+    width: 270px;
+    height: 130px;
+}
+#logoazul {
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    width: 550px;
+    height: 410px;
+}
+.login {
+    position:absolute;
+    left:770px;
+    top: 90px;
+    background-color: #003366;
+    text-decoration: none;
+    color: white;
+}
+.login:hover {
+    color:black;
+    background-color: white;
+}
+
+.container-cuerpo {
+    position: relative;
+    width: 100%; 
+}
+
+.container-menu {
+    position: fixed;
+    width: 226px;
+    height: auto;
+    border-color: #667292;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #e6eeff;
+    z-index: 1;
+}
+.menu_lateral {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 14px;  
+}
+.menu_lateral ul {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.menu_lateral a {
+    display: block;
+    padding: 10px;
+    border-color: #667292;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    color: #003366;
+}
+.menu_lateral a:hover {
+    background-color: #87bdd8;
+}
+.menu_lateral_selected {
+    background-color: #87bdd8;
+}
+.logout{
+    width: 226px;
+    height: 39px;
+    margin: 0px;
+    position: relative;
+    border-color: #667292;
+    border-style: solid;
+    border-width: 1px;
+}
+.logout input {
+    position: absolute;
+    top: 3px;
+    left:50px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container-display {
+    position: absolute;
+    width: auto;
+    height: auto;
+    display: inline;
+    padding-left: 230px;
+    z-index: 0;
+    font-family: Arial;
+    margin-left: 10px;
+}
+.menu_login {
+    margin: 50px;
+    padding: 20px;
+    border: 3px solid #003366;
+}
+
+ .menu_login2 {
+    position: absolute;
+    width: auto;
+    top: -3px;
+    right:80px;
+            font-style: italic;
+        font-family: "Times New Roman", Georgia, Serif;
+        color: #234C7E;
+        font-weight: 700;
+    
+    /*border: 3px solid #003366;*/
+}
+
+.container-display table{
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+.container-display input {
+    padding: 5px;
+}
+.container-display table th {
+    border: 1px solid #003366;
+    padding: 10px;
+}
+.container-display table tr td {
+    border: 1px solid #003366;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container-display table p {
+    margin: 5px;
+}
+.container-display table tr:nth-child(even) {
+    background-color: #ebf0fa;
+}
+
+#chica {
+    font-size: 10px;
+    font-style: italic;
+
+
+}
+}/* FIN Desktop */
